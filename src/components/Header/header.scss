@@ -1,0 +1,15 @@
+$headerColor: #ffffff;
+$headerBackground: #282c34;
+$headerSize:calc(10px + 2vmin);
+
+.App-header {
+	background-color: $headerBackground;
+	color: $headerColor;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.App-header h2{
+    padding-left: 2rem;
+    font-size: $headerSize;
+}
