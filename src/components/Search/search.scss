@@ -1,0 +1,19 @@
+@import '../Header/header.scss';
+.search {
+	width: 80%;
+	margin-left: 5rem;
+	margin-top: 2rem;
+}
+.search > input[type="text"] {
+	width: 60%;
+	min-width: 170px;
+	height: 2rem;
+}
+.search > input[type="submit"] {
+	background-color: $headerBackground;
+	color: $headerColor;
+	cursor: pointer;
+	height: 2rem;
+	width: 8rem;
+	border: 0;
+}
